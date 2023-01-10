@@ -39,3 +39,4 @@ pytest scripts/drafts.py::test_register_new_user_parametrized
 # find test with name test_register_new_user_parametrized in current file in current dir and run# education_selenium
 # education_selenium
 # education_selenium
+# education_selenium
