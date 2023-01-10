@@ -31,7 +31,7 @@ import unittest
         self.assertEqual("Congratulations! You have successfully registered!",welcome_text)
 
 
- def test_unique2(self):
+  def test_unique2(self):
 
     link = "http://suninjuly.github.io/registration2.html"
     browser = webdriver.Chrome()
@@ -57,5 +57,5 @@ import unittest
 
     self.assertEqual("Congratulations! You have successfully registered!", welcome_text)
 
- if __name__ == "__main__":
+  if __name__ == "__main__":
     unittest.main()
