@@ -3,8 +3,8 @@ import time
 from selenium.webdriver.common.by import By
 import unittest
 
-class TestAbs(unittest.TestCase):
- def test_unique(self):
+ class TestAbs(unittest.TestCase):
+  def test_unique(self):
 
         link = "http://suninjuly.github.io/registration1.html"
         browser = webdriver.Chrome()
@@ -57,5 +57,5 @@ class TestAbs(unittest.TestCase):
 
     self.assertEqual("Congratulations! You have successfully registered!", welcome_text)
 
-if __name__ == "__main__":
+ if __name__ == "__main__":
     unittest.main()
